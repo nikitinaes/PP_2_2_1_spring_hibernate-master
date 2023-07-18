@@ -29,7 +29,7 @@ public class MainApp {
       userService.addUser(new User("Сидр", "Сидоров", "user4@mail.ru"));
 
 
-      List<User> users = userService.listUsers();
+      List<User> users = userService.showUsers();
       for (User user : users) {
          System.out.println("Id = "+user.getId());
          System.out.println("First Name = "+user.getFirstName());

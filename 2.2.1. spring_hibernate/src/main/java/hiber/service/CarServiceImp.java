@@ -20,7 +20,7 @@ private CarDao carDao;
 
     @Transactional(readOnly = true)
     @Override
-    public List<Car> listCars() {
-        return carDao.listCars();
+    public List<Car> showCars() {
+        return carDao.showCars();
     }
 }
